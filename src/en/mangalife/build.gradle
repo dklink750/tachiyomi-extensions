@@ -1,0 +1,12 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+ext {
+    appName = 'Tachiyomi: Mangalife'
+    pkgNameSuffix = 'en.mangalife'
+    extClass = '.Mangalife'
+    extVersionCode = 3
+    libVersion = '1.0'
+}
+
+apply from: "$rootDir/common.gradle"
